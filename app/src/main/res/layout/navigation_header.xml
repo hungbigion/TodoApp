@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/nav_header_main"
+    android:background="@drawable/header_background">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_shadow"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/avatar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/logo_white"/>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="99dp"
+        android:layout_height="31dp"
+        android:layout_below="@id/avatar"
+        android:text="Hungdeptrai"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="18dp"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_below="@id/userName"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="5dp"
+        android:text="Pthe99040@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
